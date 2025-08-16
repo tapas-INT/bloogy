@@ -31,8 +31,8 @@ export const FeaturedPostsSection = (): JSX.Element => {
   ];
 
   return (
-    <section className="flex items-center justify-center px-[113px] py-[116px] bg-neutralneutral-01">
-      <div className="flex flex-col items-center justify-center gap-24 max-w-[1374px]">
+    <section className="flex items-center justify-center py-[116px] bg-neutralneutral-01">
+      <div className="flex flex-col items-center justify-center gap-24 px-4 max-w-[1345px]">
         <header className="flex flex-col items-center gap-4 text-center">
           <h2 className="max-w-[705px] [font-family:'Urbanist',Helvetica] font-light text-neutralneutral-07 text-7xl tracking-[0] leading-[86.4px]">
             Community Favorites

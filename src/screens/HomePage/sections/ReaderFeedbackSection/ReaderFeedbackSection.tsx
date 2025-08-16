@@ -67,7 +67,7 @@ const testimonialData = [
 export const ReaderFeedbackSection = (): JSX.Element => {
   return (
     <section className="w-full bg-neutralneutral-02 py-[117px] overflow-hidden">
-      <div className="flex flex-col items-center gap-8 max-w-[1400px] mx-auto px-4">
+      <div className="flex flex-col items-center gap-8 max-w-[1345px] mx-auto px-4">
         <header className="flex flex-col items-center gap-4">
           <h2 className="font-headings-heading-1 font-[number:var(--headings-heading-1-font-weight)] text-neutralneutral-07 text-[length:var(--headings-heading-1-font-size)] text-center tracking-[var(--headings-heading-1-letter-spacing)] leading-[var(--headings-heading-1-line-height)] [font-style:var(--headings-heading-1-font-style)]">
             Happy Reader's
@@ -79,7 +79,7 @@ export const ReaderFeedbackSection = (): JSX.Element => {
           </p>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full max-w-[1320px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full">
           {testimonialData.map((testimonial, index) => (
             <Card
               key={index}

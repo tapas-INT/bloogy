@@ -94,6 +94,12 @@ export const BlogSection = (): JSX.Element => {
             <CardContent className="p-0 h-[578px]">
               <div className="flex flex-col gap-[72px] px-[45px] py-14 h-full rounded-[20px] bg-[linear-gradient(90deg,rgba(239,223,255,1)_0%,rgba(229,220,255,1)_100%)]">
                 <div className="flex flex-col gap-4">
+                  <h3 className="text-[36px] font-extralight leading-[1.4]">
+                    <span className="text-[#AD72E3]">Dive deeper</span> into<br />
+                    the world of<br />
+                    emotional <span className="text-[#AD72E3]">blogging</span><br />
+                    with <span className="text-[#AD72E3]">Bloogy</span>
+                  </h3>
                   <p className="font-body-16px-regular font-[number:var(--body-16px-regular-font-weight)] text-neutralneutral-06 text-[length:var(--body-16px-regular-font-size)] tracking-[var(--body-16px-regular-letter-spacing)] leading-[var(--body-16px-regular-line-height)] [font-style:var(--body-16px-regular-font-style)]">
                     Start exploring the latest blogs and trends on Bloogy today!
                     Discover new perspectives, gain valuable insights, and
