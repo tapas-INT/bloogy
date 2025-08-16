@@ -4,7 +4,7 @@ import { Card, CardContent } from "../../../../components/ui/card";
 
 export const AboutMeSection = (): JSX.Element => {
   return (
-    <section className="w-full bg-neutralneutral-01 py-16">
+    <section className="w-full bg-neutralneutral-01 pb-[120px]">
       <div className="max-w-[1345px] mx-auto px-8">
         <div className="flex flex-col items-center gap-24">
           <div className="flex flex-col items-center gap-4 text-center">

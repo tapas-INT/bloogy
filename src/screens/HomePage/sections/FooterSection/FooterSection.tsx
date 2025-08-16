@@ -10,7 +10,7 @@ export const FooterSection = (): JSX.Element => {
   ];
 
   return (
-    <footer className="w-full bg-neutralneutral-01 py-[200px]">
+    <footer className="w-full bg-neutralneutral-01 py-[120px]">
       <div className="max-w-[1345px] mx-auto px-4 flex flex-col gap-24">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center gap-2">
